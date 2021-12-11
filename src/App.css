@@ -47,10 +47,18 @@ body {
 .buy:active {
   background-color: #e3d39f;
   color: #282a39;
+  box-shadow: none;
 }
 .buy:focus {
   background-color: #e3d39f;
   color: #282a39;
+  box-shadow: none;
+}
+
+.buy:active {
+  background-color: #e3d39f;
+  color: #282a39;
+  box-shadow: none;
 }
 
 .img {
