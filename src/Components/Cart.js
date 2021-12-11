@@ -40,11 +40,8 @@ const Cart = ({ cartItem, removeItem, buyNow }) => {
                   {item.productName}
                 </div>
                 <span className="carditemtprc">
-                  Price:{" "}
-                  <span style={{ fontWeight: "500" }}>
-                    {" "}
-                    {item.productPrice}
-                  </span>{" "}
+                  Price:
+                  <span style={{ fontWeight: "500" }}>{item.productPrice}</span>
                 </span>
               </Col>
             </Row>
