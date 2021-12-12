@@ -45,7 +45,7 @@ To Visit App:
 Clone the project
 
 ```bash
-  git clone https://project-link
+  git clone https://github.com/theCodeNilesh/shopping-cart-app.git
 ```
 
 Go to the project directory
