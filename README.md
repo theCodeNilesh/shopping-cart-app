@@ -15,6 +15,8 @@ https://shoppingcart-react-app-nilesh.netlify.app
 
 
 ## Project Screenshots
+![shopping cart](https://user-images.githubusercontent.com/61627365/145706149-0dc5441b-cd27-442e-9b03-858e27f64d43.jpg)
+
 
 
 ## Installation
