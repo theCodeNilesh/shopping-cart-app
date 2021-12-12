@@ -4,11 +4,12 @@ import { random, commerce } from "faker";
 import { Container, Col, Row } from "reactstrap";
 import CartItem from "./CartItem";
 
-const apikey = "563492ad6f91700001000001390e49e277274c5f8fb1f6b58900f36e";
+const apikey = "API_key"; // if u get a official Pexels API put the authorization APIkey here
 
 const url =
-  "https://api.pexels.com/v1/search?query=monitor++&per_page=20&page=1"; // official URL
-const localurl = "https://myjson.dit.upm.es/api/bins/17ul";
+  "https://api.pexels.com/v1/search?query=monitor++&per_page=20&page=1"; // official  Pexels API URL
+
+const localurl = "local_api_link"; // if u dont get the pexels official API host the code in PEXELS.json file online and get a API localy
 
 const BuyPage = ({ addInCart }) => {
   //This method work only if we have the Official API of pexels with the API key
@@ -32,6 +33,8 @@ const BuyPage = ({ addInCart }) => {
 
     setProduct(allProduct);
   };
+
+  // following code is for if you host the API localy use this code
   // const fetchPhotos = async () => {
   //   const { data } = await Axios.get(localurl);
 
